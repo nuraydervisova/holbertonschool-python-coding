@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-class Squara:
- def _init_ (self, size):
-     self._size = size
+class Square:
+    def __init__(self, size):
+        self.__size = size
 
- def area (self):
-   return self._size ** 2
+    def area(self):
+        return self.__size ** 2
