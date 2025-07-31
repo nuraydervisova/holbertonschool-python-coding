@@ -1,10 +1,8 @@
 #!/usr/bin/python3
-"""This module defines a Square class."""
+"""A class that defines a square."""
+
 
 class Square:
-    """Square class that defines a square by its size."""
-
+    """Square class with private size attribute."""
     def __init__(self, size):
         self.__size = size
-
-
