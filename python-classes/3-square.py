@@ -1,12 +1,14 @@
 #!/usr/bin/python3
-"""Defines a Square class with private size attribute, getter/setter, and area method."""
+"""Defines a Square class with private size attribute,
+getter/setter, and area method.
+"""
 
 
 class Square:
     """Square class with size property and area calculation."""
 
     def __init__(self, size=0):
-        self.size = size  # Burada setter çağırılır, ona görə yoxlama bu yerdə də aparılır
+        self.size = size  # setter çağırılır, yoxlama burada edilir
 
     @property
     def size(self):
@@ -25,3 +27,4 @@ class Square:
     def area(self):
         """Calculate and return the area of the square."""
         return self.__size * self.__size
+
